@@ -1,6 +1,6 @@
 "use strict";
 
-let concatenateVariables = (vars) => {
+export function concatenateVariables(vars) {
 
     let result = "", k;
 
@@ -15,5 +15,3 @@ let concatenateVariables = (vars) => {
     return result;
 
 }
-
-export default concatenateVariables;
