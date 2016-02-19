@@ -1,7 +1,10 @@
+To try it: 
+
+Run "npm run compile" & then "node lib/index.js".
+Or you can use babel-node to compile & run the src file directly :D.
+
+
 TODO
 
 1. Add eslint.
 2. Add tests!
-3. Add environmet variables method from claroviajes frontend here.
-4. Publish this repo to the Line64 npm registry.
-5. Install it as a module in a claroviajes frontend project and test it!.
