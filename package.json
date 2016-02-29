@@ -8,7 +8,7 @@
     "test": "npm run compile && node test/test.js",
     "precompile": "rm -rf lib",
     "compile": "broccoli build lib",
-    "prepublish": "babel src --out-file lib/index.js",
+    "prepublish": "npm run compile",
     "line64publish": "npm publish --registry=http://npm.line64.com"
   },
   "author": "Line64",
