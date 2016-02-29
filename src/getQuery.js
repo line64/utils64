@@ -1,6 +1,6 @@
 "use strict";
 
-export default function getQuery(location, checker) {
+export function getQuery(location, checker) {
 
 	let query = (location.query) ? location.query : location.state;
 
