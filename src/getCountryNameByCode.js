@@ -3,7 +3,7 @@
 import Countries from "../json/countries.json";
 import { find } from "lodash";
 
-export default function getCountryName(code) {
+export function getCountryName(code) {
 
     let found = find(Countries.countries, (country) => country.code === code.toUpperCase());
 
