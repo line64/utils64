@@ -1,6 +1,6 @@
 {
   "name": "utils64",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set of methods and useful tasks for Line64",
   "main": "./lib",
   "scripts": {
