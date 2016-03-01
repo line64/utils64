@@ -9,7 +9,8 @@ const src = 'src';
 const js = babel(src, {
   stage: 0,
   moduleIds: true,
-  modules: 'amd',
+  modules: 'common',
+  browserPolyfill: true,
 
   getModuleId: function (name) {
     name = pkg.name + '/' + name;
